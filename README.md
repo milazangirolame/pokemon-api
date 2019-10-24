@@ -18,3 +18,14 @@ ruby api.rb
   ```
 
 
+## TODO: Improve the attack comparison when one or more pokemons has equal attack points
+
+Use the <b>hp</b> points when this case happens and return the weakest pokemon with less hp points.
+```#apit.rb
+
+def get_hp_points(pokemon)
+  #put your code in here
+
+end
+```
+have fun!

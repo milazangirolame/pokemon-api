@@ -12,8 +12,6 @@ while true
 end
 puts "Pokemons: " + pokemons.join(", ")
 
-h = {}
-
 def get_attack(pokemon)
     print "Buscando pontos do pokemon inserido..."
     uri = URI('https://pokeapi.co/api/v2/pokemon/')
@@ -25,10 +23,10 @@ def get_attack(pokemon)
     return pokemons_attack
 end
 
+h = {}
 pokemons.each do |pokemon|
-
   h["#{pokemon}"] = get_attack(pokemon)
 end
-  resposta = h.sort_by{|k,v| v}
 
-  puts "O pokemon mais fraco da sua lista é #{resposta[0][0].strip}"
+resposta = h.sort_by{|k,v| v}
+puts "O pokemon mais fraco da sua lista é #{resposta[0][0].strip}"

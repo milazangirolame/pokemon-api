@@ -18,14 +18,8 @@ ruby api.rb
   ```
 
 
-## TODO: Improve the attack comparison when one or more pokemons has equal attack points
+## Improve the attack comparison when one or more pokemons has equal attack points
 
 Use the <b>hp</b> points when this case happens and return the weakest pokemon with less hp points.
-```#apit.rb
 
-def get_hp_points(pokemon)
-  #put your code in here
-
-end
-```
-have fun!
+Commented: In this case cenario even with one or more pokemons with same attack points they will be compared using the HP points.

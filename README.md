@@ -10,7 +10,7 @@ For this exercise i just used 3 ruby classes 'json', 'uri' and 'net/http'.
 ## Running
 
 
- If your model reference other model you just need to reference it ot as inside post_type.rb:
+ Go to console and ...
 
 ```#api.rb
 
